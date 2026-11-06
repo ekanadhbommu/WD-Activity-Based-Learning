@@ -1,0 +1,81 @@
+body {
+        background-image:url(GYM\ background.jpg);
+        background-size: cover;
+        background-position: center 25%;
+        background-attachment: fixed;
+        background-color: white;
+        color: white;
+        font-family: Arial, sans-serif;
+        margin: 0;
+    }
+
+h1 {
+        color: white;
+        font-size: 40px;
+    }
+
+h2 {
+        color: rgb(253, 250, 250);
+        margin-top: 30px;
+    }
+
+p {
+        font-size: 17px;
+    }
+
+a {
+        color: white;
+        text-decoration: none;
+        margin: 10px;
+    }
+
+a:hover {
+        color: white;
+    }
+
+img {
+        border-radius: 10px;
+        margin: 15px;
+    }
+
+table {
+        border-collapse: collapse;
+        margin: 20px auto;
+        width: 80%;
+    }
+
+th {
+        background-color: rgb(244, 240, 240);
+        color: black;
+    }
+
+th, td {
+        border: 1px solid rgb(8, 8, 8);
+        padding: 12px;
+    }
+
+tr:hover {
+        background-color: black;
+    }
+
+input, select {
+        padding: 10px;
+        margin: 8px;
+        border-radius: 5px;
+        border: none;
+    }
+
+button {
+        background-color: rgb(243, 240, 240);
+        color: rgb(3, 2, 2);
+        padding: 12px 25px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+button:hover {
+        background-color: rgb(247, 245, 245);
+        transform: scale(1.05);
+    }
